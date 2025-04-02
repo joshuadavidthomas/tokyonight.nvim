@@ -1,0 +1,39 @@
+name: tokyonight-storm
+author: Folke Lemaitre
+homepage: https://github.com/folke/tokyonight.nvim
+
+primary: '#7aa2f7'      # blue
+# primary: '#e0af68'  # yellow
+# primary: '#9ece6a'   # green
+# primary: '#1abc9c'    # teal
+# primary: '#bb9af7' # magenta
+# primary: '#9d7cd8'  # purple
+# primary: '#ff9e64'  # orange
+# primary: '#f7768e'     # red
+
+accent: '#29a4bd'
+background: '#1f2335'
+secondary: '#c0caf5'
+surface: '#24283b'
+
+error: '#db4b4b'
+success: '#73daca'
+warning: '#e0af68'
+
+syntax:
+  json_key: '#1abc9c'
+  json_number: '#ff9e64'
+  json_string: '#9ece6a'
+  json_boolean: '#ff9e64'
+  json_null: '#7aa2f7'
+
+text_area:
+  cursor: 'reverse'
+  cursor_line_gutter: 'bold #ff9e64'
+  selection: 'on #2e3c64'
+  gutter: '#3b4261'
+  matched_bracket: '#ff9e64'
+
+url:
+  base: 'bold italic #ff9e64'
+  protocol: 'italic #565f89'

@@ -130,6 +130,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | Tool | Extra |
 | --- | --- |
 | [Aerc](https://git.sr.ht/~rjarry/aerc/) | [extras/aerc](extras/aerc) |
+| [Aider](https://aider.chat) | [extras/aider](extras/aider) |
 | [Alacritty](https://github.com/alacritty/alacritty) | [extras/alacritty](extras/alacritty) |
 | [Delta](https://github.com/dandavison/delta) | [extras/delta](extras/delta) |
 | [(Better-)Discord](https://betterdiscord.app/) | [extras/discord](extras/discord) |
@@ -147,11 +148,14 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty) |
 | [Lazygit](https://github.com/jesseduffield/lazygit) | [extras/lazygit](extras/lazygit) |
 | [Lua Table for testing](https://www.lua.org) | [extras/lua](extras/lua) |
+| [Posting](https://posting.sh) | [extras/posting](extras/posting) |
 | [Prism](https://prismjs.com) | [extras/prism](extras/prism) |
 | [process-compose](https://f1bonacc1.github.io/process-compose/) | [extras/process_compose](extras/process_compose) |
+| [Pygments](https://pygments.org) | [extras/pygments](extras/pygments) |
 | [Slack](https://slack.com) | [extras/slack](extras/slack) |
 | [Spotify Player](https://github.com/aome510/spotify-player) | [extras/spotify_player](extras/spotify_player) |
 | [Sublime Text](https://www.sublimetext.com/docs/themes) | [extras/sublime](extras/sublime) |
+| [Tailwind CSS (v4)](https://tailwindcss.com) | [extras/tailwindv4](extras/tailwindv4) |
 | [Terminator](https://gnome-terminator.readthedocs.io/en/latest/config.html) | [extras/terminator](extras/terminator) |
 | [Termux](https://termux.dev/) | [extras/termux](extras/termux) |
 | [Tilix](https://github.com/gnunn1/tilix) | [extras/tilix](extras/tilix) |

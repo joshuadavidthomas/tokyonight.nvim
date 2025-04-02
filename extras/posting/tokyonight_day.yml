@@ -1,0 +1,39 @@
+name: tokyonight-day
+author: Folke Lemaitre
+homepage: https://github.com/folke/tokyonight.nvim
+
+primary: '#2e7de9'      # blue
+# primary: '#8c6c3e'  # yellow
+# primary: '#587539'   # green
+# primary: '#118c74'    # teal
+# primary: '#9854f1' # magenta
+# primary: '#7847bd'  # purple
+# primary: '#b15c00'  # orange
+# primary: '#f52a65'     # red
+
+accent: '#4094a3'
+background: '#d0d5e3'
+secondary: '#3760bf'
+surface: '#e1e2e7'
+
+error: '#c64343'
+success: '#387068'
+warning: '#8c6c3e'
+
+syntax:
+  json_key: '#118c74'
+  json_number: '#b15c00'
+  json_string: '#587539'
+  json_boolean: '#b15c00'
+  json_null: '#2e7de9'
+
+text_area:
+  cursor: 'reverse'
+  cursor_line_gutter: 'bold #b15c00'
+  selection: 'on #b7c1e3'
+  gutter: '#a8aecb'
+  matched_bracket: '#b15c00'
+
+url:
+  base: 'bold italic #b15c00'
+  protocol: 'italic #848cb5'

@@ -1,0 +1,39 @@
+name: tokyonight-moon
+author: Folke Lemaitre
+homepage: https://github.com/folke/tokyonight.nvim
+
+primary: '#82aaff'      # blue
+# primary: '#ffc777'  # yellow
+# primary: '#c3e88d'   # green
+# primary: '#4fd6be'    # teal
+# primary: '#c099ff' # magenta
+# primary: '#fca7ea'  # purple
+# primary: '#ff966c'  # orange
+# primary: '#ff757f'     # red
+
+accent: '#589ed7'
+background: '#1e2030'
+secondary: '#c8d3f5'
+surface: '#222436'
+
+error: '#c53b53'
+success: '#4fd6be'
+warning: '#ffc777'
+
+syntax:
+  json_key: '#4fd6be'
+  json_number: '#ff966c'
+  json_string: '#c3e88d'
+  json_boolean: '#ff966c'
+  json_null: '#82aaff'
+
+text_area:
+  cursor: 'reverse'
+  cursor_line_gutter: 'bold #ff966c'
+  selection: 'on #2d3f76'
+  gutter: '#3b4261'
+  matched_bracket: '#ff966c'
+
+url:
+  base: 'bold italic #ff966c'
+  protocol: 'italic #636da6'
