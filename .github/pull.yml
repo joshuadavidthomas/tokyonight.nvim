@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: main
+    upstream: folke:main
+    mergeMethod: hardreset
+  - base: josh
+    upstream: main
+    mergeMethod: merge
