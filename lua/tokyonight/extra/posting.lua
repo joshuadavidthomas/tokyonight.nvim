@@ -4,9 +4,12 @@ local M = {}
 
 --- @param colors ColorScheme
 function M.generate(colors)
+  colors = vim.deepcopy(colors)
+  colors["_theme_name"] = colors["_name"]:gsub("_", "-")
+
   local posting = util.template(
     [[
-name: ${_name}
+name: ${_theme_name}
 author: Folke Lemaitre
 homepage: https://github.com/folke/tokyonight.nvim
 
@@ -20,9 +23,9 @@ primary: '${blue}'      # blue
 # primary: '${red}'     # red
 
 accent: '${border_highlight}'
-background: '${bg}'
+background: '${bg_dark}'
 secondary: '${fg}'
-surface: '${bg_dark}' 
+surface: '${bg}'
 
 error: '${error}'
 success: '${green1}'
