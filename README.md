@@ -135,6 +135,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Delta](https://github.com/dandavison/delta) | [extras/delta](extras/delta) |
 | [(Better-)Discord](https://betterdiscord.app/) | [extras/discord](extras/discord) |
 | [Dunst](https://dunst-project.org/) | [extras/dunst](extras/dunst) |
+| [eza](https://eza.rocks) | [extras/eza](extras/eza) |
 | [Fish](https://fishshell.com/docs/current/index.html) | [extras/fish](extras/fish) |
 | [Fish Themes](https://fishshell.com/docs/current/interactive.html#syntax-highlighting) | [extras/fish_themes](extras/fish_themes) |
 | [Foot](https://codeberg.org/dnkl/foot) | [extras/foot](extras/foot) |
@@ -162,6 +163,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Tmux](https://github.com/tmux/tmux/wiki) | [extras/tmux](extras/tmux) |
 | [Vim](https://vimhelp.org/) | [extras/vim](extras/vim) |
 | [Vimium](https://vimium.github.io/) | [extras/vimium](extras/vimium) |
+| [Vivaldi](https://vivaldi.com) | [extras/vivaldi](extras/vivaldi) |
 | [WezTerm](https://wezfurlong.org/wezterm/config/files.html) | [extras/wezterm](extras/wezterm) |
 | [Windows Terminal](https://aka.ms/terminal-documentation) | [extras/windows_terminal](extras/windows_terminal) |
 | [Xfce Terminal](https://docs.xfce.org/apps/terminal/advanced) | [extras/xfceterm](extras/xfceterm) |
