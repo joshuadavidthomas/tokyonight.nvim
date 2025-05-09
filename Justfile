@@ -18,4 +18,4 @@ update:
     @just docs
     git add .
     git commit -m "chore(build): generate build files and docs"
-    gh pr create --base joshuadavidthomas:josh --web
+    gh pr create --base josh --fill --web
