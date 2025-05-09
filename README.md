@@ -171,6 +171,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Xresources](https://wiki.archlinux.org/title/X_resources) | [extras/xresources](extras/xresources) |
 | [Yazi](https://github.com/sxyazi/yazi) | [extras/yazi](extras/yazi) |
 | [Zathura](https://pwmt.org/projects/zathura/) | [extras/zathura](extras/zathura) |
+| [Zed](https://zed.dev) | [extras/zed](extras/zed) |
 | [Zellij](https://zellij.dev/) | [extras/zellij](extras/zellij) |
 
 <!-- extras:end -->
