@@ -38,9 +38,9 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 > [!NOTE]
 > This is my personal fork of [folke/tokyonight.nvim](https://github.com/folke/tokyonight.nvim). 
 >
-> It has a number of extras for tools and applications I personally use and that were missing from the upstream repo. I maintain all of my changes from the upstream `main` branch in the `josh` branch, which is the default branch for this fork. 
+> It has a number of extras for tools and applications I personally use and that were missing from the upstream repo. I maintain all of the changes in the `josh` branch, which is the default branch for this fork. 
 >
-> I have submitted PRs for some of them which may or may not be accepted, but until then I plan on maintaining my separate own fork with its separate branch so I can enjoy this awesome theme in anything I use that supports theming.
+> I have submitted PRs for my additions which may or may not be accepted. Until then I plan on maintaining my separate own fork with its separate branch so I can enjoy this awesome theme in anything I use that supports theming.
 
 ## ✨ Features
 
