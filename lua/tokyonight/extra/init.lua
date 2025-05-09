@@ -45,6 +45,7 @@ M.extras = {
   vim              = { ext = "vim", url = "https://vimhelp.org/", label = "Vim", subdir = "colors", sep = "-" },
   vimium           = { ext = "css", url = "https://vimium.github.io/", label = "Vimium" },
   zathura          = { ext = "zathurarc", url = "https://pwmt.org/projects/zathura/", label = "Zathura" },
+  zed              = { ext = "json", url = "https://zed.dev", label = "Zed" },
   zellij           = { ext = "kdl", url = "https://zellij.dev/", label = "Zellij" },
 }
 
