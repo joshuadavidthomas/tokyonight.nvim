@@ -48,6 +48,7 @@ M.extras = {
   vimium           = { ext = "css", url = "https://vimium.github.io/", label = "Vimium" },
   vivaldi          = { ext = "json", url = "https://vivaldi.com", label = "Vivaldi" },
   zathura          = { ext = "zathurarc", url = "https://pwmt.org/projects/zathura/", label = "Zathura" },
+  zed              = { ext = "json", url = "https://zed.dev", label = "Zed" },
   zellij           = { ext = "kdl", url = "https://zellij.dev/", label = "Zellij" },
 }
 
