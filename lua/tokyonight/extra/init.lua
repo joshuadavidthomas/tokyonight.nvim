@@ -26,6 +26,7 @@ M.extras = {
   kitty            = { ext = "conf", url = "https://sw.kovidgoyal.net/kitty/conf.html", label = "Kitty" },
   lazygit          = { ext = "yml", url = "https://github.com/jesseduffield/lazygit", label = "Lazygit" },
   lua              = { ext = "lua", url = "https://www.lua.org", label = "Lua Table for testing" },
+  opencode         = { ext = "json", url = "https://github.com/sst/opencode", label = "opencode" },
   posting          = { ext = "yml", url = "https://posting.sh", label = "Posting" },
   prism            = { ext = "js", url = "https://prismjs.com", label = "Prism" },
   process_compose  = { ext = "yaml", url = "https://f1bonacc1.github.io/process-compose/", label = "process-compose" },
