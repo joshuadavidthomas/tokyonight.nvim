@@ -153,6 +153,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [GitUI](https://github.com/extrawurst/gitui) | [extras/gitui](extras/gitui) |
 | [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [extras/gnome_terminal](extras/gnome_terminal) |
 | [Helix](https://helix-editor.com/) | [extras/helix](extras/helix) |
+| [Hyprland](https://hypr.land) | [extras/hyprland](extras/hyprland) |
 | [iTerm](https://iterm2.com/) | [extras/iterm](extras/iterm) |
 | [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty) |
 | [Lazygit](https://github.com/jesseduffield/lazygit) | [extras/lazygit](extras/lazygit) |
