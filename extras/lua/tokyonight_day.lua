@@ -273,7 +273,7 @@ local highlights = {
   ["@markup.underline"] = {
     underline = true
   },
-  ["@module"] = "Directory",
+  ["@module"] = "Include",
   ["@module.builtin"] = {
     fg = "#f52a65"
   },
@@ -763,6 +763,9 @@ local highlights = {
   Comment = {
     fg = "#848cb5",
     italic = true
+  },
+  ComplHint = {
+    fg = "#a1a6c5"
   },
   Conceal = {
     fg = "#68709a"
