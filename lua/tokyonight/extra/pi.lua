@@ -8,7 +8,7 @@ function M.generate(colors)
   local pi = util.template(
     [[{
   "$schema": "https://raw.githubusercontent.com/badlogic/pi-mono/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
-  "name": "${_style_name}",
+  "name": "${_name}",
   "colors": {
     "accent": "${blue}",
     "border": "${border_highlight}",
