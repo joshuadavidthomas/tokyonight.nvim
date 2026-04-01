@@ -26,9 +26,9 @@
   --color-tokyonight-night-cyan-bright: oklch(from #a4daff l c h);
   --color-tokyonight-night-dark3: oklch(from #545c7e l c h);
   --color-tokyonight-night-dark5: oklch(from #737aa2 l c h);
-  --color-tokyonight-night-diff-add: oklch(from #20303b l c h);
+  --color-tokyonight-night-diff-add: oklch(from #243e4a l c h);
   --color-tokyonight-night-diff-change: oklch(from #1f2231 l c h);
-  --color-tokyonight-night-diff-delete: oklch(from #37222c l c h);
+  --color-tokyonight-night-diff-delete: oklch(from #4a272f l c h);
   --color-tokyonight-night-diff-text: var(--color-tokyonight-night-blue7);
   --color-tokyonight-night-error: var(--color-tokyonight-night-red1);
   --color-tokyonight-night-fg: oklch(from #c0caf5 l c h);

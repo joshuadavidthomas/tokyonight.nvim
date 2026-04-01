@@ -115,6 +115,7 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [rainbow-delimiters.nvim](https://github.com/HiPhish/rainbow-delimiters.nvim) | [`rainbow`](lua/tokyonight/groups/rainbow.lua) |
 | [render-markdown.nvim](https://github.com/MeanderingProgrammer/render-markdown.nvim) | [`render-markdown`](lua/tokyonight/groups/render-markdown.lua) |
 | [nvim-scrollbar](https://github.com/petertriho/nvim-scrollbar) | [`scrollbar`](lua/tokyonight/groups/scrollbar.lua) |
+| [sidekick.nvim](https://github.com/folke/sidekick.nvim) | [`sidekick`](lua/tokyonight/groups/sidekick.lua) |
 | [snacks.nvim](https://github.com/folke/snacks.nvim) | [`snacks`](lua/tokyonight/groups/snacks.lua) |
 | [vim-sneak](https://github.com/justinmk/vim-sneak) | [`sneak`](lua/tokyonight/groups/sneak.lua) |
 | [supermaven-nvim](https://github.com/supermaven-inc/supermaven-nvim) | [`supermaven`](lua/tokyonight/groups/supermaven.lua) |
@@ -149,20 +150,22 @@ TokyoNight](https://github.com/enkia/tokyo-night-vscode-theme) theme. Includes
 | [Foot](https://codeberg.org/dnkl/foot) | [extras/foot](extras/foot) |
 | [Fuzzel](https://codeberg.org/dnkl/fuzzel) | [extras/fuzzel](extras/fuzzel) |
 | [Fzf](https://github.com/junegunn/fzf) | [extras/fzf](extras/fzf) |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | [extras/gemini_cli](extras/gemini_cli) |
 | [Ghostty](https://github.com/ghostty-org/ghostty) | [extras/ghostty](extras/ghostty) |
 | [GitUI](https://github.com/extrawurst/gitui) | [extras/gitui](extras/gitui) |
 | [GNOME Terminal](https://gitlab.gnome.org/GNOME/gnome-terminal) | [extras/gnome_terminal](extras/gnome_terminal) |
 | [Helix](https://helix-editor.com/) | [extras/helix](extras/helix) |
-| [Hyprland](https://hypr.land) | [extras/hyprland](extras/hyprland) |
+| [iSH ](https://ish.app) | [extras/ish](extras/ish) |
 | [iTerm](https://iterm2.com/) | [extras/iterm](extras/iterm) |
 | [Kitty](https://sw.kovidgoyal.net/kitty/conf.html) | [extras/kitty](extras/kitty) |
+| [Konsole](https://konsole.kde.org/) | [extras/konsole](extras/konsole) |
 | [Lazygit](https://github.com/jesseduffield/lazygit) | [extras/lazygit](extras/lazygit) |
 | [Lua Table for testing](https://www.lua.org) | [extras/lua](extras/lua) |
 | [opencode](https://github.com/sst/opencode) | [extras/opencode](extras/opencode) |
-| [Posting](https://posting.sh) | [extras/posting](extras/posting) |
+| [pi](https://github.com/badlogic/pi-mono) | [extras/pi](extras/pi) |
 | [Prism](https://prismjs.com) | [extras/prism](extras/prism) |
 | [process-compose](https://f1bonacc1.github.io/process-compose/) | [extras/process_compose](extras/process_compose) |
-| [Pygments](https://pygments.org) | [extras/pygments](extras/pygments) |
+| [QTerminal](https://github.com/lxqt/qterminal) | [extras/qterminal](extras/qterminal) |
 | [Slack](https://slack.com) | [extras/slack](extras/slack) |
 | [Spotify Player](https://github.com/aome510/spotify-player) | [extras/spotify_player](extras/spotify_player) |
 | [Sublime Text](https://www.sublimetext.com/docs/themes) | [extras/sublime](extras/sublime) |
@@ -452,21 +455,4 @@ aplugin.my_error = util.lighten(colors.red1, 0.3) -- number between 0 and 1. 0 r
 
 ## 🔥 Contributing
 
-Pull requests are welcome.
-
-For the [extras](#-extras), we use a simple template system that can be used to
-generate themes for the different styles.
-
-How to add a new extra template:
-
-1. Create a file like `lua/tokyonight/extra/cool-app.lua`.
-2. Add the name and output file extension to the `extras` table in
-   `lua/tokyonight/extra/init.lua`.
-3. Run the following command to generate new [extra](#-extras) themes from the tokyonight plugin directory:
-
-   ```sh
-   ./scripts/build
-   ```
-
-4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
-   commit them, as they are already automatically built by the CI.
+Pull requests are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on adding new extras and general contribution guidelines.

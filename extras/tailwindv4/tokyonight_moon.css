@@ -26,9 +26,9 @@
   --color-tokyonight-moon-cyan-bright: oklch(from #b2ebff l c h);
   --color-tokyonight-moon-dark3: oklch(from #545c7e l c h);
   --color-tokyonight-moon-dark5: oklch(from #737aa2 l c h);
-  --color-tokyonight-moon-diff-add: oklch(from #273849 l c h);
+  --color-tokyonight-moon-diff-add: oklch(from #2a4556 l c h);
   --color-tokyonight-moon-diff-change: oklch(from #252a3f l c h);
-  --color-tokyonight-moon-diff-delete: oklch(from #3a273a l c h);
+  --color-tokyonight-moon-diff-delete: oklch(from #4b2a3d l c h);
   --color-tokyonight-moon-diff-text: var(--color-tokyonight-moon-blue7);
   --color-tokyonight-moon-error: var(--color-tokyonight-moon-red1);
   --color-tokyonight-moon-fg: oklch(from #c8d3f5 l c h);

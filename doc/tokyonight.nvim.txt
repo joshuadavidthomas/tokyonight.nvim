@@ -1,4 +1,4 @@
-*tokyonight.nvim.txt*         For Neovim        Last change: 2025 September 25
+*tokyonight.nvim.txt*                                     tokyonight.nvim docs
 
 ==============================================================================
 Table of Contents                          *tokyonight.nvim-table-of-contents*
@@ -154,6 +154,8 @@ Supported Plugins ~
 
   nvim-scrollbar                      scrollbar
 
+  sidekick.nvim                       sidekick
+
   snacks.nvim                         snacks
 
   vim-sneak                           sneak
@@ -179,13 +181,19 @@ Extras ~
   ----------------------------------- -----------------------------------
   Aerc                                extras/aerc
 
+  Aider                               extras/aider
+
   Alacritty                           extras/alacritty
+
+  Btop++                              extras/btop
 
   Delta                               extras/delta
 
   (Better-)Discord                    extras/discord
 
   Dunst                               extras/dunst
+
+  eza                                 extras/eza
 
   Fish                                extras/fish
 
@@ -197,6 +205,8 @@ Extras ~
 
   Fzf                                 extras/fzf
 
+  Gemini CLI                          extras/gemini_cli
+
   Ghostty                             extras/ghostty
 
   GitUI                               extras/gitui
@@ -205,23 +215,35 @@ Extras ~
 
   Helix                               extras/helix
 
+  iSH                                 extras/ish
+
   iTerm                               extras/iterm
 
   Kitty                               extras/kitty
+
+  Konsole                             extras/konsole
 
   Lazygit                             extras/lazygit
 
   Lua Table for testing               extras/lua
 
+  opencode                            extras/opencode
+
+  pi                                  extras/pi
+
   Prism                               extras/prism
 
   process-compose                     extras/process_compose
+
+  QTerminal                           extras/qterminal
 
   Slack                               extras/slack
 
   Spotify Player                      extras/spotify_player
 
   Sublime Text                        extras/sublime
+
+  Tailwind CSS (v4)                   extras/tailwindv4
 
   Terminator                          extras/terminator
 
@@ -234,6 +256,8 @@ Extras ~
   Vim                                 extras/vim
 
   Vimium                              extras/vimium
+
+  Vivaldi                             extras/vivaldi
 
   WezTerm                             extras/wezterm
 
@@ -259,7 +283,7 @@ REQUIREMENTS                        *tokyonight.nvim-tokyo-night-requirements*
 INSTALLATION                        *tokyonight.nvim-tokyo-night-installation*
 
 Install the theme with your preferred package manager, such as folke/lazy.nvim
-<https://github.com/folke/lazy.nvim>
+<https://github.com/folke/lazy.nvim>:
 
 >lua
     {
@@ -502,32 +526,8 @@ You can easily use the color palette for other plugins inside your Neovim
 
 CONTRIBUTING                        *tokyonight.nvim-tokyo-night-contributing*
 
-Pull requests are welcome.
-
-For the |tokyonight.nvim-extras|, we use a simple template system that can be
-used to generate themes for the different styles.
-
-How to add a new extra template:
-
-1. Create a file like `lua/tokyonight/extra/cool-app.lua`.
-
-
-2. Add the name and output file extension to the `extras` table in
-`lua/tokyonight/extra/init.lua`.
-
-
-3. Run the following command to generate new |tokyonight.nvim-extra| themes from
-the tokyonight plugin directory:
-
->sh
-    ./scripts/build
-<
-
-
-4. Check the newly created themes in the `extra/` directory. Please **DO NOT**
-commit them, as they are already automatically built by the CI.
-
-
+Pull requests are welcome! Please see CONTRIBUTING.md <CONTRIBUTING.md> for
+guidelines on adding new extras and general contribution guidelines.
 
 ==============================================================================
 2. Links                                               *tokyonight.nvim-links*

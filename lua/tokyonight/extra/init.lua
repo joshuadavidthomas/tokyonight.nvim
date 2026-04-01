@@ -19,20 +19,23 @@ M.extras = {
   foot             = { ext = "ini", url = "https://codeberg.org/dnkl/foot", label = "Foot" },
   fuzzel           = { ext = "ini", url = "https://codeberg.org/dnkl/fuzzel", label = "Fuzzel" },
   fzf              = { ext = "sh", url = "https://github.com/junegunn/fzf", label = "Fzf" },
+  gemini_cli       = { ext = "json", url = "https://github.com/google-gemini/gemini-cli", label = "Gemini CLI" },
   ghostty          = { ext = "", url = "https://github.com/ghostty-org/ghostty", label = "Ghostty" },
   gitui            = { ext = "ron", url = "https://github.com/extrawurst/gitui", label = "GitUI" },
   gnome_terminal   = { ext = "dconf", url = "https://gitlab.gnome.org/GNOME/gnome-terminal", label = "GNOME Terminal" },
   helix            = { ext = "toml", url = "https://helix-editor.com/", label = "Helix" },
   hyprland         = { ext = "conf", url = "https://hypr.land", label = "Hyprland" },
   iterm            = { ext = "itermcolors", url = "https://iterm2.com/", label = "iTerm" },
+  ish              = { ext = "json", url = "https://ish.app", label = "iSH "},
   kitty            = { ext = "conf", url = "https://sw.kovidgoyal.net/kitty/conf.html", label = "Kitty" },
+  konsole          = { ext = "colorscheme", url = "https://konsole.kde.org/", label = "Konsole" },
   lazygit          = { ext = "yml", url = "https://github.com/jesseduffield/lazygit", label = "Lazygit" },
   lua              = { ext = "lua", url = "https://www.lua.org", label = "Lua Table for testing" },
   opencode         = { ext = "json", url = "https://github.com/sst/opencode", label = "opencode" },
-  posting          = { ext = "yml", url = "https://posting.sh", label = "Posting" },
+  pi               = { ext = "json", url = "https://github.com/badlogic/pi-mono", label = "pi" },
   prism            = { ext = "js", url = "https://prismjs.com", label = "Prism" },
   process_compose  = { ext = "yaml", url = "https://f1bonacc1.github.io/process-compose/", label = "process-compose" },
-  pygments         = { ext = "py", url = "https://pygments.org", label = "Pygments" },
+  qterminal        = { ext = "colorscheme", url = "https://github.com/lxqt/qterminal", label = "QTerminal" },
   slack            = { ext = "txt", url = "https://slack.com", label = "Slack" },
   sublime          = { ext = "tmTheme", url = "https://www.sublimetext.com/docs/themes", label = "Sublime Text" },
   spotify_player   = { ext = "toml", url = "https://github.com/aome510/spotify-player", label = "Spotify Player" },
@@ -55,7 +58,7 @@ M.extras = {
 }
 
 function M.setup()
-  local tokyonight = require("tokyonight")
+  local tokyonight = require("tokyonight.theme")
   vim.o.background = "dark"
 
   -- map of style to style name
@@ -75,7 +78,7 @@ function M.setup()
     local info = M.extras[extra]
     local plugin = require("tokyonight.extra." .. extra)
     for style, style_name in pairs(styles) do
-      local colors, groups, opts = tokyonight.load({ style = style, plugins = { all = true } })
+      local colors, groups, opts = tokyonight.setup({ style = style, plugins = { all = true } })
       local fname = extra
         .. (info.subdir and "/" .. info.subdir .. "/" or "")
         .. "/tokyonight"
@@ -93,5 +96,6 @@ function M.setup()
     end
   end
 end
+M.setup()
 
 return M
