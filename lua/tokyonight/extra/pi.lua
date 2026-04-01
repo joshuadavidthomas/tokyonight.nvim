@@ -41,7 +41,7 @@ function M.generate(colors)
     "mdLink": "${teal}",
     "mdLinkUrl": "${comment}",
     "mdCode": "${blue}",
-    "mdCodeBlock": "${bg_dark}",
+    "mdCodeBlock": "${fg_dark}",
     "mdCodeBlockBorder": "${comment}",
     "mdQuote": "${comment}",
     "mdQuoteBorder": "${comment}",
